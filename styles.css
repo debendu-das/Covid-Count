@@ -1,0 +1,126 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  transition: .40s ease-in-out;
+}
+.selectList{
+  border-radius: 50px;
+  transition: .40s ease-in-out;
+}
+.selectList:hover{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.link{
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  
+}
+.link:hover{
+  text-decoration: none;
+  background-color: rgba(200, 239, 255, 0.5);
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.myCard{
+  font-size: 1.4rem;
+  min-height: 150px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.myCard:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.02);
+  transition: .40s ease-in-out;
+}
+.card-text-heading{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.center-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.delta-text{
+  font-size: 1.1rem;
+  /* color: #ffffff; */
+}
+.bg-confirm{
+  background-color: rgba(255, 200, 200, 0.5);
+  color: rgb(255, 0, 0);
+}
+.bg-active{
+  background-color: rgba(200, 239, 255, 0.5);
+  color: rgb(65, 65, 255); 
+}
+.bg-recovery{
+  background-color: rgba(200, 255, 200, 0.788);
+  color: rgb(0, 219, 0); 
+}
+.bg-death{
+  background-color: rgba(228, 228, 228, 0.5);
+  color: rgb(80, 80, 80);
+}
+
+.delta-confirm-text{
+  text-align: right;
+  color: rgb(255, 0, 0);
+  font-size: 0.9rem;
+}
+.delta-active-text{
+  text-align: right;
+  color: rgb(65, 65, 255); 
+  font-size: 0.9rem;
+}
+.delta-recovery-text{
+  text-align: right;
+  color: rgb(0, 219, 0); 
+  font-size: 0.9rem;
+}
+.delta-death-text{
+  text-align: right;
+  color: rgb(80, 80, 80);
+  font-size: 0.9rem;
+}
+
+table {
+  border-collapse: separate;
+  cursor: pointer;
+  max-width: 1000px;
+}
+th{
+  border-radius: 10px !important;
+  position: sticky;
+  max-width: 150px;
+}
+td{
+  border-radius: 10px !important;
+  border: 1px solid #dee2e6;
+}
+.sticky-th{
+  left: 0px;
+  position: sticky !important;
+  z-index: 11;
+  background-color: #f3f3f3!important;
+  border-right: 1px solid #dee2e6 !important;
+}
+
+.heading{
+  background-color: #f8f4ff;
+  color: #440fe2;
+}
+.back-btn{
+  position: absolute;
+  left: 10;
+  top: 20px;
+}
+.district_wise_bulletin{
+  background-color: rgb(247, 255, 174);
+  color: rgb(255, 0, 0);
+}
