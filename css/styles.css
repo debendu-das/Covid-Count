@@ -2,7 +2,20 @@
   margin: 0%;
   padding: 0%;
   transition: .40s ease-in-out;
+  background: transparent;
 }
+body{
+  /* background: #f2f2f2 url(/images/bg-image.jfif) no-repeat fixed;
+   */
+
+   /* background-color: #89d4cf;
+background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%); */
+
+
+background: #ffffff linear-gradient(315deg, #e5e5e5 0%, #f5fcff 74%) no-repeat fixed;
+background-size: cover;
+}
+
 .selectList{
   border-radius: 50px;
   transition: .40s ease-in-out;
@@ -112,15 +125,69 @@ td{
 }
 
 .heading{
-  background-color: #f8f4ff;
+  /* background-color: #f8f4ff; */
+  /* background-color: rgba(255, 246, 246, 0.233);
+  color: #440fe2; */
+
+  background-color: #dddddd71;
   color: #440fe2;
+  border-radius: 15px;
+  backdrop-filter: blur(8px);
 }
 .back-btn{
   position: absolute;
   left: 10;
   top: 20px;
+  z-index: 19;
 }
 .district_wise_bulletin{
   background-color: rgb(247, 255, 174);
   color: rgb(255, 0, 0);
+}
+.virus{
+  position: fixed;
+  top: 0vh;
+  left: 0vw;
+  width: 90px;
+  z-index: 20;
+  cursor: not-allowed;
+  user-select: none;
+  -webkit-user-drag: none;
+  animation: virus 100s infinite alternate-reverse linear;
+}
+
+@keyframes virus {
+  0%{
+    transform: translate(10vw, 10vh) rotate(0deg);
+  }
+  10%{
+    transform: translate(48vw, 38vh) rotate(180deg);
+  }
+  20%{
+    transform: translate(90vw, 10vh) rotate(360deg);
+  }
+  30%{
+    transform: translate(10vw, 90vh) rotate(-180deg);
+  }
+  40%{
+    transform: translate(90vw, 90vh) rotate(-360deg);
+  }
+  50%{
+    transform: translate(60vw, 48vh) rotate(0deg);
+  }
+  60%{
+    transform: translate(30vw, 48vh) rotate(360deg);
+  }
+  70%{
+    transform: translate(10vw, 10vh) rotate(90deg);
+  }
+  80%{
+    transform: translate(30vw, 80vh) rotate(180deg);
+  }
+  90%{
+    transform: translate(40vw, 50vh) rotate(360deg);
+  }
+  100%{
+    transform: translate(80vw, 30vh) rotate(180deg);
+  }
 }
