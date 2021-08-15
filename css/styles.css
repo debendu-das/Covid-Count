@@ -5,15 +5,8 @@
   background: transparent;
 }
 body{
-  /* background: #f2f2f2 url(/images/bg-image.jfif) no-repeat fixed;
-   */
-
-   /* background-color: #89d4cf;
-background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%); */
-
-
-background: #ffffff linear-gradient(315deg, #e5e5e5 0%, #f5fcff 74%) no-repeat fixed;
-background-size: cover;
+  background: #f7f7f7a4;
+  background-size: cover;
 }
 
 .selectList{
